@@ -10,11 +10,12 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: web.
+  database: web
   pool: 5
   username: web
   password: web
-  socket: /tmp/mysql.sock
+  socket: /var/run/mysqld/mysqld.sock
+  #socket: /tmp/mysql.sock
 # default: &default
 #   adapter: sqlite3
 #   pool: 5

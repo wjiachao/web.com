@@ -5,7 +5,7 @@ gem 'capistrano'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 gem 'mysql2'
-# Use sqlite3 as the database for Active Record
+gem 'devise'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
