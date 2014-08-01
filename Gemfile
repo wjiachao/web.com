@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'capistrano'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
-gem 'mysql2'
+#gem 'mysql2'
+gem 'pg'
 gem 'devise'
 
 # Use SCSS for stylesheets
