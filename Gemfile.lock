@@ -135,6 +135,10 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
+<<<<<<< HEAD
+=======
+  mysql2
+>>>>>>> d52b9786ffd51f3025839af59d4ad99606f64b09
   pg
   rails (= 4.1.0)
   rails_12factor
