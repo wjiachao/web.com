@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -19,7 +20,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 #use for markdown
 gem 'redcarpet'
-gem 'coderay'
+gem 'markdown-rails'
+#my blog
+gem 'activeadmin', github: 'activeadmin/active_admin'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

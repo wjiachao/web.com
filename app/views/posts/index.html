@@ -1,0 +1,5 @@
+<%@post.each do |post|%>
+  <h1><%= post.title%></h1>
+  <%= markdown(post.content) %>
+<%end%>
+

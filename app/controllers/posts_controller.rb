@@ -1,15 +1,7 @@
 class PostsController < ApplicationController
-  def new
-    @post = Post.new
-  end
-
-  def create
-    @post = Post.create(post_params)
-    redirect_to root_path
-  end
 
   def index
-    @post = Post.first
+    @post = Post.all
   end
 
   private
