@@ -8,3 +8,9 @@ width:10%;
   margin:auto;
   width: 60%;
 }
+
+.nav-tabs.nav-justified > li > a,
+.list-group-item:last-child {
+    text-decoration: none;
+}
+
