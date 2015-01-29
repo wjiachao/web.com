@@ -21,6 +21,8 @@ gem 'coffee-rails', '~> 4.0.0'
 #use for markdown
 gem 'redcarpet'
 gem 'markdown-rails'
+# gem 'rubyzip'
+# gem  'markdown',  '~> 1.2.0'
 #my blog
 gem 'activeadmin', github: 'activeadmin'
 gem "font-awesome-rails"
